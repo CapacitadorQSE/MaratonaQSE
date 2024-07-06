@@ -18,21 +18,36 @@ body, html {
 .top-section {
     position: relative;
     flex: 2;
-    background: url('DALL·E 2024-07-06 13.47.32.webp') no-repeat center center/cover;
+    background: url('image.png') no-repeat center center/cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 20px;
+}
+
+.top-section .text-left {
+    max-width: 50%;
 }
 
 .top-section h1 {
     font-size: 2em;
     margin: 0;
-    padding: 0 10px;
+    padding: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.top-section h2 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.top-section .button-right {
+    max-width: 50%;
+    text-align: center;
 }
 
 .top-section button {
@@ -68,7 +83,7 @@ body, html {
 
 .carousel iframe {
     width: 300px;
-    height: auto;
+    height: 170px;
     border-radius: 10px;
 }
 
@@ -76,7 +91,11 @@ body, html {
     .top-section h1 {
         font-size: 1.5em;
     }
+    .top-section h2 {
+        font-size: 1.2em;
+    }
     .carousel iframe {
         width: 100%;
+        height: auto;
     }
 }
