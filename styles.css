@@ -18,7 +18,7 @@ body, html {
 .top-section {
     position: relative;
     flex: 2;
-    background: url('AtletaQSE2024.jpg') no-repeat center center/cover;
+    background: url('qse1.webp') no-repeat center center/cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
