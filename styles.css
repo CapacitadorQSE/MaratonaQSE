@@ -18,7 +18,7 @@ body, html {
 .top-section {
     position: relative;
     flex: 2;
-    background: url('qse1.webp') no-repeat center center/cover;
+    background: url('AtletaQSE2024.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,15 +51,15 @@ body, html {
 }
 
 .top-section button {
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ff6b6b; /* Cor de destaque da imagem */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .top-section button:hover {
